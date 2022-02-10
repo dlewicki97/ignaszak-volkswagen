@@ -1,0 +1,440 @@
+@import "fonts/vw head office/vw-head-office.css";
+
+.md-form input:not([type]):focus:not([readonly]), .md-form input[type="text"]:not(.browser-default):focus:not([readonly]), .md-form input[type="password"]:not(.browser-default):focus:not([readonly]), .md-form input[type="email"]:not(.browser-default):focus:not([readonly]), .md-form input[type="url"]:not(.browser-default):focus:not([readonly]), .md-form input[type="time"]:not(.browser-default):focus:not([readonly]), .md-form input[type="date"]:not(.browser-default):focus:not([readonly]), .md-form input[type="datetime"]:not(.browser-default):focus:not([readonly]), .md-form input[type="datetime-local"]:not(.browser-default):focus:not([readonly]), .md-form input[type="tel"]:not(.browser-default):focus:not([readonly]), .md-form input[type="number"]:not(.browser-default):focus:not([readonly]), .md-form input[type="search"]:not(.browser-default):focus:not([readonly]), .md-form input[type="phone"]:not(.browser-default):focus:not([readonly]), .md-form input[type="search-md"]:focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly]){
+	border-bottom: 1px solid white;
+	-webkit-box-shadow: 0 1px 0 0 white;
+	box-shadow: 0 1px 0 0 white;
+}
+
+.form-check-input[type="checkbox"]+label:before, .form-check-input[type="checkbox"]:not(.filled-in)+label:after, label.btn input[type="checkbox"]+label:before, label.btn input[type="checkbox"]:not(.filled-in)+label:after{
+	border-color: white;
+}
+
+.form-check-input[type="checkbox"]:checked+label:before, label.btn input[type="checkbox"]:checked+label:before{
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+}
+
+.form-check-input[type="checkbox"]+label, label.btn input[type="checkbox"]+label{
+	padding-left: 23px;
+}
+
+.carousel-multi-item .carousel-indicators li{
+	width: .6rem!important;
+	max-width: .6rem!important;
+	height: .6rem!important;
+	background-color: #3e3e3e!important;
+	margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+*{
+	font-family: "VW Head Office";
+}
+
+.vw-head{
+	font-family: "VW Head";
+}
+
+.bg-picture{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+#hero-img{
+	background-image: url("../img/header-bg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 130vh;
+	min-width: 100%;
+	display: flex;
+}
+
+.hero-mask{
+	color: #ffffff;
+	z-index: 9001;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: start;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.14) 0%, rgba(0, 0, 0, 0) 100%); /*avocode dało zły gradient */
+}
+
+.hero-logos{
+	position: absolute;
+	top: 1.75rem;
+	left: 0;
+	width: 100%;
+	overflow: visible;
+	display: flex;
+}
+
+.logo-line{
+	background-color: #ffffff;
+	height: 2px;
+}
+
+.logo-line--center{
+	flex: 1;
+	margin: 0 15px;
+}
+
+.logo-line--left{
+	width: calc((100vw - 1690px) / 2); /*(Szerokość ekranu - max-width containera) / 2 */
+	position: absolute;
+	left: 0;
+}
+
+.logo-line--right{
+	width: calc((100vw - 1690px) / 2); /*(Szerokość ekranu - max-width containera) / 2 */
+	position: absolute;
+	right: 0;
+}
+.header-title, .header-subtitle, .header-subtitle2{
+	font-size: 2.5rem;
+}
+.header-subtitle{
+	font-family: 'VW Head';
+	font-weight: 100;
+}
+.header-button{
+	color: black;
+	background: white;
+	font-weight: 600;
+}
+.header-button:hover{
+	color: white;
+	background-color: #00356b;
+}
+.header-content span {
+	max-height: calc(60px - 1rem);
+}
+
+.parameters{
+	background-color: #00356b;
+}
+.parameter > p {
+	margin:0;
+}
+.parameter-separator {
+	height: 58px;
+	width: 1px;
+	background-color: #134476;
+}
+.parameter > span{
+	font-family: 'VW Head';
+	font-weight: 100;
+}
+.parameter{
+	margin-bottom: 10px;
+	padding-left:0!important;
+}
+.parameter:last-child{
+	border: unset;
+	padding-right: 0!important;
+}
+
+
+.attributes{
+	padding: 140px 0px;
+}
+.attributes-header{
+	font-size: 3rem;
+	color:black;
+}
+.attributes-title{
+	font-size: 2.3rem;
+	margin-bottom: 30px;
+	font-weight: 100;
+    font-family: "VW Head";
+}
+.attributes-title > span {
+	font-weight: 900!important;
+}
+.attributes-subtitle{
+	text-align: justify;
+	font-size: .9rem;
+}
+.attributes-row{
+	padding: 30px 0px;
+	color: black;
+}
+
+.contact-form{
+	background-color: #00356b;
+	color:white;
+	padding-top: 1.8rem;
+	padding-bottom: 1.8rem;
+}
+
+.contact-header, .contact-description, .contact-rodo > p, .input-label{
+	font-family: 'VW Head';
+	font-weight: 100;
+}
+
+.input-label{
+	-webkit-transform: translateY(-14px) scale(0.8)!important;
+    transform: translateY(-14px) scale(0.8)!important;
+}
+.contact-header{
+	text-align: center;
+}
+.contact-header > span {
+	font-weight: 900;
+}
+
+.contact-description, .contact-rodo > p, .checkbox-label, .contact-button{
+	font-size: .9rem;
+}
+
+.checkbox-label{
+	margin-right: 1rem;
+}
+
+.contact-button{
+	color: black;
+	background-color: white;
+	border: none;
+	padding: 10px 40px;
+	font-size: .8rem;
+	font-weight: 600;
+	text-transform: unset;
+}
+
+.contact-button:hover{
+	color: white;
+	background-color: unset;
+	box-shadow: unset;
+}
+
+
+.carousels{
+	color: black;
+	padding: 100px 0px;
+}
+
+.carousels-header, .card-title > span{
+	font-weight: 900;
+
+}
+
+.card{
+	box-shadow: unset;
+}
+.card-body{
+	padding: 0;
+}
+.card-img-top{
+	margin-bottom: 30px;
+}
+.card-title{
+	margin-bottom: 1rem;
+	font-size: 1.6rem;
+	font-family: "VW Head";
+	font-weight: 100!important;
+}
+.card-text{
+	font-size: .75rem!important;
+	color: black!important;
+}
+.carousel-multi-item .carousel-indicators{
+	margin-bottom: 0;
+}
+.card-picture{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 30px;
+}
+.carousel-item > .col-md-6 {
+	padding-right: 2rem;
+	padding-left: 2rem;
+}
+
+
+.quote{
+	color: black;
+	padding-top:80px;
+	padding-bottom:80px;
+}
+.quote-content{
+	margin:0;
+	text-align: justify;
+	font-size: 1.4rem;
+	font-family: 'VW Head';
+	font-weight: 100;
+}
+.quote-separator{
+	height:2px;
+	width:10%;
+	background-color: #ebebeb;
+}
+.quote-author > span {
+	font-weight: 900;
+}
+
+
+.copyright{
+	background-color: #141414;
+	color: white;
+	font-size: .9rem;
+}
+.ad-awards:hover{
+	color: #00356b!important;
+}
+
+
+@media(max-width: 800px){
+	.parameter{
+		padding: 0;
+		width: 100%;
+		border:unset!important;
+	}
+	.parameter-separator{
+		display: none;
+	}
+	.attributes, .carousels, .quote{
+		padding: 50px 0px;
+	}
+}
+@media(min-width: 801px){
+	.parameter{
+		/*border-right: 1px solid #265381;*/
+		border-color: #265381!important;
+		/*padding: 0px 54px;*/
+		
+	}
+}
+@media (min-width: 1690px) {
+	/*Custom container max-width*/
+	.container {
+		max-width: 1690px;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1689px) {
+	/*Custom container max-width*/
+	.container {
+		max-width: 1200px;
+
+	}
+	.logo-line--right, .logo-line--left{
+		width: calc((100vw - 1200px) / 2);
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 990px) {
+	/*Custom container max-width*/
+	.container {
+		max-width: 990px;
+
+	}
+	.logo-line--right, .logo-line--left{
+		width: calc((100vw - 990px) / 2);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+	/*Custom container max-width*/
+	.container {
+		max-width: 768px;
+
+	}
+	.logo-line--right, .logo-line--left{
+		width: calc((100vw - 768px) / 2);
+	}
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+	/*Custom container max-width*/
+	.container {
+		max-width: 576px;
+
+	}
+	.logo-line--right, .logo-line--left{
+		width: calc((100vw - 576px) / 2);
+	}
+
+}
+
+@media (max-width: 576px) {
+	/*Custom container max-width*/
+	
+	.quote-content{
+		font-size: 1rem;
+	}
+	.quote-author{
+		font-size: .9rem;
+	}
+	.quote-separator{
+		height: 0.4%;
+	}
+	.custom-checkbox{
+		width: 100%;
+		margin-bottom: .3rem;
+	}
+}
+@media(min-width: 577px){
+	.quote-separator{
+		height: 1%;
+	}
+}
+
+@media(min-width: 991px){
+	.attribute-description-mobile{
+		display: none!important;
+	}
+
+}
+
+@media(max-width: 990px){
+	.attribute-description-lg{
+		display: none!important;
+	}
+	.attributes-title{
+		margin-bottom: 10px;
+	}
+}
+@media(max-width: 380px){
+	.attributes-title{
+		font-size: 1.7rem;
+	}
+	.attributes-header{
+		font-size: 2.4rem;
+	}
+}
+
+@media(max-width: 768px){
+	.card-text{
+		margin-bottom: .4rem!important;
+	}
+	.carousel-item > .col-md-6{
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media(max-width: 400px){
+	.card-picture{
+		height: 200px;
+	}
+}
+
+@media(max-width: 1000px){
+	.quote-row{
+		flex-wrap: wrap!important;
+	}
+}
+
+@media(max-width: 370px){
+	.header-content span{
+		font-size: 2rem;
+	}
+}

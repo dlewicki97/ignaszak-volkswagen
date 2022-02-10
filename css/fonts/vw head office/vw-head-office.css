@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'VW Head Office';
+    src: url('VWHeadOffice-Italic.eot');
+    src: local('VW Head Office Italic'), local('VWHeadOffice-Italic'),
+        url('VWHeadOffice-Italic.eot?#iefix') format('embedded-opentype'),
+        url('VWHeadOffice-Italic.woff2') format('woff2'),
+        url('VWHeadOffice-Italic.woff') format('woff'),
+        url('VWHeadOffice-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VW Text Office';
+    src: url('VWTextOffice-Italic.eot');
+    src: local('VW Text Office Italic'), local('VWTextOffice-Italic'),
+        url('VWTextOffice-Italic.eot?#iefix') format('embedded-opentype'),
+        url('VWTextOffice-Italic.woff2') format('woff2'),
+        url('VWTextOffice-Italic.woff') format('woff'),
+        url('VWTextOffice-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VW Text Office';
+    src: url('VWTextOffice.eot');
+    src: local('VW Text Office'), local('VWTextOffice'),
+        url('VWTextOffice.eot?#iefix') format('embedded-opentype'),
+        url('VWTextOffice.woff2') format('woff2'),
+        url('VWTextOffice.woff') format('woff'),
+        url('VWTextOffice.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VW Text Office';
+    src: url('VWTextOffice-BoldItalic.eot');
+    src: local('VW Text Office Bold Italic'), local('VWTextOffice-BoldItalic'),
+        url('VWTextOffice-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('VWTextOffice-BoldItalic.woff2') format('woff2'),
+        url('VWTextOffice-BoldItalic.woff') format('woff'),
+        url('VWTextOffice-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VW Head Office';
+    src: url('VWHeadOffice-BoldItalic.eot');
+    src: local('VW Head Office Bold Italic'), local('VWHeadOffice-BoldItalic'),
+        url('VWHeadOffice-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('VWHeadOffice-BoldItalic.woff2') format('woff2'),
+        url('VWHeadOffice-BoldItalic.woff') format('woff'),
+        url('VWHeadOffice-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'VW Head Office';
+    src: url('VWHeadOffice.eot');
+    src: local('VW Head Office'), local('VWHeadOffice'),
+        url('VWHeadOffice.eot?#iefix') format('embedded-opentype'),
+        url('VWHeadOffice.woff2') format('woff2'),
+        url('VWHeadOffice.woff') format('woff'),
+        url('VWHeadOffice.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VW Head Office';
+    src: url('VWHeadOffice-Bold.eot');
+    src: local('VW Head Office Bold'), local('VWHeadOffice-Bold'),
+        url('VWHeadOffice-Bold.eot?#iefix') format('embedded-opentype'),
+        url('VWHeadOffice-Bold.woff2') format('woff2'),
+        url('VWHeadOffice-Bold.woff') format('woff'),
+        url('VWHeadOffice-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VW Text Office';
+    src: url('VWTextOffice-Bold.eot');
+    src: local('VW Text Office Bold'), local('VWTextOffice-Bold'),
+        url('VWTextOffice-Bold.eot?#iefix') format('embedded-opentype'),
+        url('VWTextOffice-Bold.woff2') format('woff2'),
+        url('VWTextOffice-Bold.woff') format('woff'),
+        url('VWTextOffice-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'VW Head';
+    src: url('VWHead-Light.otf');
+    src: local('VW Head Light'), local('VWHead-Light'),
+        url('VWHead-Light.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
